@@ -1,0 +1,20 @@
+{
+  "name": "@si14/si-atsamd-configpin",
+  "version": "1.0.0",
+  "description": "Three state configuration pin library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burgrp/si-atsamd-configpin.git"
+  },
+  "author": "",
+  "license": "CC BY",
+  "bugs": {
+    "url": "https://github.com/burgrp/si-atsamd-configpin/issues"
+  },
+  "silicon": {
+    "sources": [
+      "config-pin.cpp"
+    ]
+  }
+}
