@@ -1,5 +1,11 @@
 namespace atsamd::configPin {
 
+/**
+ * @brief Test tri state configuration pin
+ *  * 
+ * @param pin 
+ * @return int 0 if pin is floating, 1 if pin is pulled down, 2 if pin is pulled hi
+ */
 int readConfigPin(int pin) {
 
   target::PORT.DIRCLR = 1 << pin;
