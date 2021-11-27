@@ -1,6 +1,6 @@
 {
   "name": "@si14/si-atsamd-configpin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Three state configuration pin library",
   "main": "index.js",
   "repository": {
